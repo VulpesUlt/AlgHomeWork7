@@ -148,7 +148,7 @@ int main()
 		scanf_s("%c", &curr);
 		if (curr == '\n')
 		{
-			if (open->pop() != '1')
+			if (open->pop() != '\n')
 				correct = false;
 			break;
 		}
